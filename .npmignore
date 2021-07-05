@@ -1,0 +1,8 @@
+src
+scripts
+node_modules
+todo.md
+buildEnv
+.eslintrc.js
+tmp
+.prettierrc
