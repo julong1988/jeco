@@ -1,4 +1,5 @@
 const path = require('path');
+// const alias = require('./alias');
 
 module.exports = {
   preset: 'ts-jest',

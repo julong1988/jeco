@@ -19,7 +19,5 @@ declare module '*.sass' {
 }
 
 interface Window{
-  ROUTES: any[];
+  jeco: IJeco
 }
-
-type IRoutes = any[];
