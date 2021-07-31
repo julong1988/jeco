@@ -27,8 +27,6 @@
   "license": "ISC",
   "homepage": "https://github.com/julong1988",
   "devDependencies": {
-    "@babel/cli": "^7.13.14",
-    "@babel/core": "^7.13.14",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "@testing-library/react": "^11.2.7",
@@ -40,6 +38,11 @@
     "semantic-release": "^17.4.4"
   },
   "dependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
     "@julong/webpack-plugin-runtime-assets": "^1.0.4",
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
@@ -51,7 +54,6 @@
     "css-loader": "^5.2.0",
     "cssnano": "^4.1.10",
     "dotenv-webpack": "^7.0.2",
-    "esbuild": "^0.11.6",
     "esbuild-loader": "^2.11.0",
     "eslint": "^7.23.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -90,7 +92,6 @@
     "stylus": "^0.54.8",
     "stylus-loader": "^5.0.0",
     "terminal-link": "^2.1.1",
-    "ts-jest": "^26.5.5",
     "typescript": "^4.2.3",
     "webpack": "^5.28.0",
     "webpack-bundle-analyzer": "^4.4.0",
