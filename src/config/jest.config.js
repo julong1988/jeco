@@ -14,6 +14,7 @@ module.exports = {
       '<rootDir>/jest/fileMock.js',
     '\\.(css|less|styl)$': `<rootDir>../node_modules/identity-obj-proxy`,
   },
+  setupFiles: ['<rootDir>/jest/setupFiles.js'],
   globals: {
     'ts-jest': {
       tsconfig: path.resolve(__dirname, '../tsconfig.json'),
