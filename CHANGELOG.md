@@ -1,3 +1,10 @@
+## [1.0.41](https://github.com/julong1988/jeco/compare/v1.0.40...v1.0.41) (2021-07-17)
+
+
+### Bug Fixes
+
+* **common:** window.jeco 타입추가/ & 버전 추가 ([609897d](https://github.com/julong1988/jeco/commit/609897d197ce0ccb107da19ce21230c7bfe2d81f))
+
 ## [1.0.40](https://github.com/julong1988/jeco/compare/v1.0.39...v1.0.40) (2021-07-05)
 
 
