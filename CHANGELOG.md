@@ -1,3 +1,11 @@
+## [1.0.42](https://github.com/julong1988/jeco/compare/v1.0.41...v1.0.42) (2021-07-31)
+
+
+### Bug Fixes
+
+* setupFiles추가 ([2d99b0b](https://github.com/julong1988/jeco/commit/2d99b0bb6bacd81b5f97ad03767bdeaa74cb56e0))
+* ts-jest => babel-jest ([88ab569](https://github.com/julong1988/jeco/commit/88ab56931ae3d187f4666479a5c54fb9dc6b1819))
+
 ## [1.0.41](https://github.com/julong1988/jeco/compare/v1.0.40...v1.0.41) (2021-07-17)
 
 
