@@ -1,3 +1,11 @@
+## [1.0.43](https://github.com/julong1988/jeco/compare/v1.0.42...v1.0.43) (2021-09-10)
+
+
+### Bug Fixes
+
+* **common:** window jeco 변경, tsconfig root/container경로 추가 ([cbb349e](https://github.com/julong1988/jeco/commit/cbb349e7b78c08901748e1fbf6c5eb95f2614c81))
+* **package:** [@types](https://github.com/types) 추가(react, react-dom, react-router, react-router-dom) ([1198960](https://github.com/julong1988/jeco/commit/1198960332e52e77287b4f4c599e86ce3c92f70e))
+
 ## [1.0.42](https://github.com/julong1988/jeco/compare/v1.0.41...v1.0.42) (2021-07-31)
 
 
