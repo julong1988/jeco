@@ -5,7 +5,7 @@ import Loader from './Loader';
 const Router: React.FC = () => (
   <BrowserRouter>
     <Switch>
-      {window.jeco.ROUTES.map(({ path }: any) => {
+      {jeco?.ROUTES?.map(({ path }: any) => {
         const props = {
           path: [path],
           key: path,

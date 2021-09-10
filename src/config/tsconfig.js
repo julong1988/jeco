@@ -25,6 +25,10 @@ export default {
       getPath('./node_modules/@types'),
       getPath('./types'),
     ],
+    paths: {
+      "@root/*": [`${path.resolve('./container/*')}`],
+      "@container/*": [getPath('./src/*')]
+    }
   },
   include: [
     path.resolve('./types/**/*'),
