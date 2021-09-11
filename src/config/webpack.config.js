@@ -76,7 +76,7 @@ if (process.env.NODE_ENV === 'local') {
     compress: true,
     noInfo: true,
   };
-  config.plugins.push(plugins.forkTsChecker);
+  // config.plugins.push(plugins.forkTsChecker);
   config.module.rules.push(loader.sourceMap);
 }
 
