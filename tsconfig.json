@@ -17,7 +17,10 @@
       "./node_modules/@types",
       "./types"
     ],
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "paths": {
+      "@root/*": ["./container/*"]
+    }
   },
   "exclude": [
     "node_modules",

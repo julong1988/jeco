@@ -26,8 +26,8 @@ export default {
       getPath('./types'),
     ],
     paths: {
-      "@root/*": [`${path.resolve('./container/*')}`],
-      "@container/*": [getPath('./src/*')]
+      "@container/*": [path.resolve('./src/*')],
+      "@root/*": [path.resolve('./container/*')],
     }
   },
   include: [
@@ -35,6 +35,7 @@ export default {
     path.resolve('./src/**/*'),
     getPath('./types/**/*'),
     getPath('./types/**/*'),
+    getPath('./container/**/*'),
   ],
   exclude: [
     path.resolve('./node_modules'),

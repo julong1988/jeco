@@ -8,3 +8,5 @@ interface IJeco{
 interface JecoRouter{
   path: string;
 }
+
+declare var jeco: IJeco;
