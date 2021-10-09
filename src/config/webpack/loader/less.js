@@ -1,17 +1,20 @@
 import CssWebpackPlugin from 'mini-css-extract-plugin';
 import getLoader from './getLoader';
-import css from './style_css';
 import postcss from './style_postcss';
 
 export default {
   test: /\.less$/,
   use: [
     CssWebpackPlugin.loader,
-    css,
+    getLoader('css-loader'),
     postcss,
     {
       loader: getLoader('less-loader'),
-      javascriptEnabled: true,
+      options: {
+        lessOptions: {
+          javascriptEnabled: true
+        }
+      }
     },
   ],
 };

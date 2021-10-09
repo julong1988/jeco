@@ -1,8 +1,8 @@
 import CssWebpackPlugin from 'mini-css-extract-plugin';
-import css from './style_css';
 import postcss from './style_postcss';
+import getLoader from './getLoader';
 
 export default {
   test: /\.css$/,
-  use: [CssWebpackPlugin.loader, css, postcss],
+  use: [CssWebpackPlugin.loader, getLoader('css-loader'), postcss],
 };
