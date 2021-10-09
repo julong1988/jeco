@@ -1,3 +1,11 @@
+## [1.0.44](https://github.com/julong1988/jeco/compare/v1.0.43...v1.0.44) (2021-09-11)
+
+
+### Bug Fixes
+
+* **config:** container, root 경로 설정/ jeco타입 지정 ([cb8aa7f](https://github.com/julong1988/jeco/commit/cb8aa7f735cd1f71937f1d6c1ff057c333f7a313))
+* **config:** fork-type-checker 임시 닫음 ([0dc02d1](https://github.com/julong1988/jeco/commit/0dc02d12eb5928c86b20d2eb479f6e0d1b72d61f))
+
 ## [1.0.43](https://github.com/julong1988/jeco/compare/v1.0.42...v1.0.43) (2021-09-10)
 
 
