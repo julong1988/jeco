@@ -26,9 +26,9 @@ export default {
       getPath('./types'),
     ],
     paths: {
-      "@container/*": [path.resolve('./src/*')],
-      "@root/*": [path.resolve('./container/*')],
-    }
+      '@container/*': [path.resolve('./src/*')],
+      '@root/*': [path.resolve('./container/*')],
+    },
   },
   include: [
     path.resolve('./types/**/*'),

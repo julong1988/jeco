@@ -5,5 +5,13 @@ import postcss from './style_postcss';
 
 export default {
   test: /\.less$/,
-  use: [CssWebpackPlugin.loader, css, postcss, getLoader('less-loader')],
+  use: [
+    CssWebpackPlugin.loader,
+    css,
+    postcss,
+    {
+      loader: getLoader('less-loader'),
+      javascriptEnabled: true,
+    },
+  ],
 };

@@ -19,7 +19,7 @@ const getVersion = () => {
   const versionSplitTexts = package.version.split('.');
   versionSplitTexts[2] = parseInt(versionSplitTexts[2], 10) + 1;
   return versionSplitTexts.join('.');
-}
+};
 
 export default new webpack.DefinePlugin({
   jeco: JSON.stringify({
@@ -27,5 +27,5 @@ export default new webpack.DefinePlugin({
     ROUTES: routes,
     CONFIG: projectConfig,
     VERSION: getVersion(),
-  })
+  }),
 });
