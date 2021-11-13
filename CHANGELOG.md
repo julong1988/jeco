@@ -1,3 +1,10 @@
+## [1.0.46](https://github.com/jl917/jeco/compare/v1.0.45...v1.0.46) (2021-11-13)
+
+
+### Bug Fixes
+
+* julong1988 => jl917 ([d0951a3](https://github.com/jl917/jeco/commit/d0951a363163088a107ba0764e02e685fc4936fa))
+
 ## [1.0.45](https://github.com/jl917/jeco/compare/v1.0.44...v1.0.45) (2021-10-09)
 
 
