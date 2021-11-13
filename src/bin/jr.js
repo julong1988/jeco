@@ -41,7 +41,7 @@ const scripts = {
 
 const command = Object.keys(scripts);
 
-console.log(terminalLink('github - ', 'https://github.com/julong1988'));
+console.log(terminalLink('github - ', 'https://github.com/jl917'));
 // console.log(`cli_jr - path.resolve(__dirname) => `, path.resolve(__dirname));
 // console.log(`cli_jr - __dirname => `, __dirname);
 // console.log(`cli_jr - path.resolve(__dirname) => `, path.resolve('./'));
