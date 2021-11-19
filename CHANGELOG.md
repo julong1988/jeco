@@ -1,3 +1,10 @@
+## [1.0.47](https://github.com/jl917/jeco/compare/v1.0.46...v1.0.47) (2021-11-19)
+
+
+### Bug Fixes
+
+* package 라이센스 수정 ISC => MIT ([3014571](https://github.com/jl917/jeco/commit/3014571b2c63a5bc642f3c7e00f968c422a6605f))
+
 ## [1.0.46](https://github.com/jl917/jeco/compare/v1.0.45...v1.0.46) (2021-11-13)
 
 

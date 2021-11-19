@@ -1,6 +1,6 @@
 {
   "name": "jeco",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "description": "react base runtime ecosystem",
   "main": "bin/jr.js",
   "bin": {
