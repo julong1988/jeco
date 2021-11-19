@@ -24,7 +24,7 @@
     "airbnb"
   ],
   "author": "julong",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/jl917",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
